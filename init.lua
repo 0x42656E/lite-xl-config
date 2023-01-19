@@ -12,6 +12,7 @@ local lspconfig = require "plugins.lsp.config"
 ------------------------------ LSP -------------------------------------------
 
 lspconfig.rust_analyzer.setup()
+lspconfig.pylsp.setup()
 
 ------------------------------ Themes ----------------------------------------
 
