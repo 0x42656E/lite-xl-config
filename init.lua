@@ -19,6 +19,11 @@ lspconfig.pylsp.setup()
 -- light theme:
 -- core.reload_module("colors.summer")
 
+------------------------------ Text ------------------------------------------
+
+config.tab_type = "hard" -- soft for spaces, hard for real tabs (\t)
+config.indent_size = 4   -- 4 spaces
+
 --------------------------- Key bindings -------------------------------------
 
 -- quit editor:
