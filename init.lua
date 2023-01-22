@@ -17,7 +17,7 @@ lspconfig.pylsp.setup()
 ------------------------------ Themes ----------------------------------------
 
 -- light theme:
--- core.reload_module("colors.summer")
+core.reload_module("colors.default_plus")
 
 ------------------------------ Text ------------------------------------------
 
