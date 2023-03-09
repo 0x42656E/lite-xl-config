@@ -22,7 +22,7 @@ syntax.add {
     { pattern = ":=",                            type = "operator" },
     { pattern = "[%a_][%w_]*%f[(]",              type = "function" },
     { pattern = "[%a_][%w_]*",                   type = "symbol"   },
-    { pattern = "@[%a_][%w_]*",                  type = "special"  },
+    { pattern = "@[%a_.][%w_.]*",                type = "special"  },
   },
   symbols = {
     ["class"]    = "keyword",
