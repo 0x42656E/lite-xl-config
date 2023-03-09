@@ -12,7 +12,7 @@ local lspconfig = require "plugins.lsp.config"
 ------------------------------ LSP -------------------------------------------
 
 lspconfig.rust_analyzer.setup()
-lspconfig.pylsp.setup()
+-- lspconfig.pylsp.setup()
 
 ------------------------------ Themes ----------------------------------------
 
@@ -21,7 +21,7 @@ core.reload_module("colors.default_plus")
 
 ------------------------------ Text ------------------------------------------
 
-config.tab_type = "hard" -- soft for spaces, hard for real tabs (\t)
+config.tab_type = "soft" -- soft for spaces, hard for real tabs (\t)
 config.indent_size = 4   -- 4 spaces
 
 --------------------------- Key bindings -------------------------------------
